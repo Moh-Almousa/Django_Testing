@@ -427,3 +427,45 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables
+.env
+.env.*
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Static / media (اختياري حسب مشروعك)
+media/
+staticfiles/
+
+# Migrations (اختياري — عادة لا تحذفها)
+# */migrations/*
+# !*/migrations/__init__.py
